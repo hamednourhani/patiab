@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "WebYekan";
+  src: url('fonts/WebYekan.eot?1439716606');
+  src: url('fonts/WebYekan.eot?&1439716606#iefix') format('embedded-opentype'), url('fonts/WebYekan.ttf?1439716606') format('truetype'), url('fonts/WebYekan.woff?1439716606') format('woff');
+  font-weight: "WebYekan.svg"; }
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	font-family : "WebYekan" !important;
+}
+h1,h2,h3,h4,h5,h6,p,label,input,button,li,ul{
+	font-family : "WebYekan" !important;
+
+}
+
+body.intro-page-body .header-wrapper {
+    display: none;
+}
+.rtl .right {
+    float: right;
+}
+
+.rtl .left {
+    float: left;
+}
+/*----------------- header Menu ----------------*/
+@media screen and (min-width: 993px){
+	.cshero-menu-dropdown > ul > li {
+	    float: right;
+	}
+}
+
+#cshero-header ul.cshero-dropdown > li > a, #cshero-header .menu-pages .menu > ul > li > a {
+    font-size: 16px;
+    font-family : "WebYekan" !important;
+    font-weight: 600;
+
+}
+#cshero-header ul.cshero-dropdown ul > li > a {
+    font-size: 16px;
+    color: #444444;
+}
+
+/*-------------------- body-------------------*/
+.title-construction .wpb_wrapper > h3:before {
+   left : auto;
+    right: 0;
+ }
+
+ .vc_tta-color-blue.vc_tta-style-modern .vc_tta-panel .vc_tta-panel-title > a {
+    font-size: 16px !important;
+   line-height: 1.5;
+}
+.vc_tta.vc_general .vc_tta-panel-title h4,span.vc_tta-title-text,
+.vc_tta.vc_general .vc_tta-panel-title {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px !important;
+}
+.vc_tta.vc_general {
+    font-size: 16px !important;
+}
+/*.vc_tta-color-blue.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-heading {
+    border-color: #8078F5;
+}
+.vc_tta-color-blue.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-body{
+	border-color: #8078F5;
+}*/

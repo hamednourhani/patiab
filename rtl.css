@@ -67,3 +67,16 @@ body.intro-page-body .header-wrapper {
 .vc_tta-color-blue.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-body{
 	border-color: #8078F5;
 }*/
+.mymail-wrapper .submit-button.button{
+padding-top  : 7px;
+padding-bottom : 12px;
+margin-top : 15px;
+}
+.searchform input[type="submit"] {
+    left: 0;
+      right: auto;
+}
+.searchform::before {
+    left: 14px;
+    right: auto;
+}

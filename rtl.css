@@ -17,13 +17,13 @@ h1,h2,h3,h4,h5,h6,p,label,input,button,li,ul{
 body.intro-page-body .header-wrapper {
     display: none;
 }
-.rtl .right {
+.rtl .content-area .right {
     float: right;
 }
 
-.rtl .left {
+.rtl .content-area .left {
     float: left;
-}
+}*/
 /*----------------- header Menu ----------------*/
 @media screen and (min-width: 993px){
 	.cshero-menu-dropdown > ul > li {
@@ -41,7 +41,14 @@ body.intro-page-body .header-wrapper {
     font-size: 16px;
     color: #444444;
 }
+.cshero-header-content-widget.cshero-menu-mobile.hidden-lg.hidden-md.right{
+  float : left;
+  font-size : 120%;
+}
 
+.vc_separator .vc_sep_holder .vc_sep_line {
+    top: 6px;
+}
 /*-------------------- body-------------------*/
 .title-construction .wpb_wrapper > h3:before {
    left : auto;
@@ -93,8 +100,31 @@ margin-top : 15px;
     left: 14px;
     right: auto;
 }
+.cs-blog-item-style1 .cs-blog-info .cs-date span:nth-child(1) {
+    color: #343A86;
+}
+.cs-blog-item-style1 .cs-blog-info .cs-date {
+    padding-left: 10px;
+}
+.cs-blog-item-style1 .cs-blog-info .cs-date span:nth-child(2) {
+    color: #CBA412;
+}
+.navigation .nav-previous{
+    float: right;
+}
+.navigation .nav-next {
+    text-align: left;
+    float: left;
+}
+@media screen and (min-width:993px){
+.cshero-menu-dropdown > ul > li{display:inline-block;float:right;}
+}
 @media (max-width:1200px) and (min-width: 992px) {
 #wrapper #cshero-header ul.cshero-dropdown > li > a {
      padding: 0 11px;
+  }
+  .csbody #wrapper .btn {
+    font-size: 14px;
+      padding: 12px 26px;
   }
 }

@@ -48,6 +48,19 @@ body.intro-page-body .header-wrapper {
     right: 0;
  }
 
+.single-post #cs-page-title-wrapper {
+    padding: 22px 0 22px 0;
+}
+.cs-blog.cs-blog-item.cs-blog-item-style1 {
+    margin-top: 70px;
+}
+#cs-page-title-wrapper .title_bar .page-title {
+    color: #fff !important;
+    font-size: 18px !important;
+}
+h2.cs-hedding-title{
+font-size: 18px !important;
+}
  .vc_tta-color-blue.vc_tta-style-modern .vc_tta-panel .vc_tta-panel-title > a {
     font-size: 16px !important;
    line-height: 1.5;
@@ -79,4 +92,9 @@ margin-top : 15px;
 .searchform::before {
     left: 14px;
     right: auto;
+}
+@media (max-width:1200px) and (min-width: 992px) {
+#wrapper #cshero-header ul.cshero-dropdown > li > a {
+     padding: 0 11px;
+  }
 }

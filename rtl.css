@@ -116,6 +116,39 @@ margin-top : 15px;
     text-align: left;
     float: left;
 }
+h3.wg-title a{
+  color : #FFCB0C !important;
+}
+.widget_login_wid label{
+  width : 100%;
+}
+.widget_login_wid input[type="submit"]{
+  padding-top: 7px;
+  color : #fff !important;
+}
+.widget_login_wid input[type="submit"]:hover,
+.widget_login_wid input[type="submit"]:focus{
+  color : #000 !important;
+}
+.mymail-submit-wrapper input[type="submit"]{
+  color : #fff !important;
+}
+.mymail-submit-wrapper input[type="submit"]:hover,
+.mymail-submit-wrapper input[type="submit"]:focus{
+  color : #000 !important;
+}
+.widget_login_wid label[for="login"] {
+    display: none;
+}
+.widget_search #s{
+  color : #000;
+}
+form input {
+    color: #000 !important;
+}
+.footer-bottom{
+  font-size : 90%;
+}
 @media screen and (min-width:993px){
 .cshero-menu-dropdown > ul > li{display:inline-block;float:right;}
 }

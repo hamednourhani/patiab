@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Yekan";
-  src: url('fonts/Yekan.eot?1439716606');
-  src: url('fonts/Yekan.eot?&1439716606#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1439716606') format('truetype'), url('fonts/Yekan.woff?1439716606') format('woff');
+  font-family: "BYekan";
+  src: url('fonts/BYekan.eot?1439716606');
+  src: url('fonts/BYekan.eot?&1439716606#iefix') format('embedded-opentype'), url('fonts/BYekan.ttf?1439716606') format('truetype'), url('fonts/BYekan.woff?1439716606') format('woff');
   font-weight: normal; }
 
 body {
 	direction: rtl;
 	unicode-bidi: embed;
-	font-family : "Yekan" !important;
+	font-family : "BYekan" !important;
     color: #3C3C3C !important;
 
 }
@@ -15,7 +15,7 @@ footer label{
   color: #fff !important;
 }
 h1,h2,h3,h4,h5,h6,p,label,input,button,li,ul{
-	font-family : "Yekan" !important;
+	font-family : "BYekan" !important;
 
 }
 
@@ -38,7 +38,7 @@ body.intro-page-body .header-wrapper {
 
 #cshero-header ul.cshero-dropdown > li > a, #cshero-header .menu-pages .menu > ul > li > a {
     font-size: 16px;
-    font-family : "Yekan" !important;
+    font-family : "BYekan" !important;
     font-weight: 600;
 
 }
